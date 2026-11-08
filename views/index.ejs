@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bò Ngủ Ngon 🌸</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>🌸 Bò Ngủ Ngon</h1>
+        <p>Thế giới truyện dành cho bạn</p>
+    </header>
+
+    <main class="container">
+        <h2>📚 Truyện mới nhất</h2>
+
+        <% stories.forEach(story => { %>
+            <div class="story-card">
+                <h3><%= story.title %></h3>
+                <p>Tác giả: <%= story.author %></p>
+                <p><%= story.description %></p>
+                <p>👁 <%= story.views %> lượt xem</p>
+                <a class="btn-pink" href="/story/<%= story.id %>">
+                    Đọc truyện
+                </a>
+            </div>
+        <% }) %>
+    </main>
+</body>
+</html>
+

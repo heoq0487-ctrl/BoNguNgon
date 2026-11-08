@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fff0f5;
+    color: #4a4a4a;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px solid #ffb6c1;
+}
+
+header h1 {
+    color: #db7093;
+}
+
+.container {
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+.story-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #e8cbd5;
+}
+
+.btn-pink {
+    display: inline-block;
+    background: #db7093;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+}
